@@ -1,0 +1,19 @@
+[project]
+name = "faststream-example"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Malegkin", email = "malegkin@gmail.com"},
+]
+dependencies = [
+    "faststream[docs,rabbitmq]>=0.4.5",
+    "fastapi>=0.110.0",
+    "aio-pika>=9.4.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
